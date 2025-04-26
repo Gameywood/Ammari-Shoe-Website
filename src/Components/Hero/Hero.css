@@ -1,0 +1,78 @@
+.hero{
+    height: 80vh;
+    background:linear-gradient(90deg, white 60%,rgb(115, 115, 115) 95% );
+    display: flex;
+}
+
+.hero-left{
+    flex: 1 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    gap: 1px;
+    padding-left: 180px;
+    padding-top: 30px;
+    line-height: 0.9;
+}
+
+.hero-left p {
+    color: #090909;
+    font-size: 20px;
+    font-weight: 300;
+   
+}
+
+.hero-left  h2 {
+    color:  #171717;
+    font-size: 150px;
+    margin-top: 30px;
+    margin-bottom: 15vh;
+}
+
+.hero-price-latest-btn {
+    display: flex;
+    align-items: center;
+    gap:40px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.hero-price-latest-btn b{
+   font-size: 25px;
+   font-family: 'Courier New', Courier, monospace;
+ 
+}
+.hero-price-latest-btn span {
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.hero-latest-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 14px;
+   width: 230px;
+   height:70px;
+   border-radius: 75px;
+   margin-top: 30px;
+   background: #171717;
+   color: white;
+   font-size: 22px;
+   font-weight: 500;
+}
+
+.hero-right-container {
+   
+    max-width: 165vh; 
+    height: 50vh;
+}
+
+.Amari-Maverick{
+    
+    max-width: 170vh; 
+    height: 70vh;
+   margin-top: 40px;
+    transform: rotate(-40deg) translateY(-30px);
+}
